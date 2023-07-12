@@ -1,6 +1,6 @@
-package ss10_excercise_map.excercsie_two.repository;
+package ss11_excercise_map.excercsie_two.repository;
 
-import ss10_excercise_map.excercsie_two.model.Product;
+import ss11_excercise_map.excercsie_two.model.Product;
 
 import java.util.List;
 

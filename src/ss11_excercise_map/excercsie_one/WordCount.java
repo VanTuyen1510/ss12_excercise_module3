@@ -1,8 +1,5 @@
-package ss10_excercise_map.excercsie_one;
+package ss11_excercise_map.excercsie_one;
 
-import ss11_map.Student;
-
-import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;

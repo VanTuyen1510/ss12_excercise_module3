@@ -1,4 +1,4 @@
-package excercise_ss10_stack_queue;
+package excercise_ss10_stack_queue.excercise_one;
 
 import java.util.Scanner;
 import java.util.Stack;

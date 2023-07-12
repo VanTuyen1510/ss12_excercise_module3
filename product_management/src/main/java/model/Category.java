@@ -1,2 +1,4 @@
-package model;public class Category {
+package model;
+
+public class Category {
 }

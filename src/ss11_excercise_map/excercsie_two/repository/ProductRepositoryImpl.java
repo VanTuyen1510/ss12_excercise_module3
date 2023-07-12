@@ -1,6 +1,6 @@
-package ss10_excercise_map.excercsie_two.repository;
+package ss11_excercise_map.excercsie_two.repository;
 
-import ss10_excercise_map.excercsie_two.model.Product;
+import ss11_excercise_map.excercsie_two.model.Product;
 
 import java.util.*;
 
@@ -50,11 +50,6 @@ public class ProductRepositoryImpl implements IProductRepository {
                     System.out.print("Please input number: ");
                     select = Integer.parseInt(sc.nextLine()); // thừa dấu enter dùng nextLine
                     switch (select){
-//                        case 1:
-//                            System.out.println("Mời bạn nhập id mới :");
-//                            int idEdit = sc.nextInt();
-//                            productList.get(i).setId(idEdit); // ???
-//                            break;
                         case 2:
                             System.out.println("Mời bạn nhập tên sản phẩm mới mà bạn muốn sửa:");
                             String nameEdit = sc.nextLine();
@@ -121,14 +116,23 @@ public class ProductRepositoryImpl implements IProductRepository {
             }
         });
         for (Product product:productList) {
-            System.out.println(product);
+            System.out.println(product.toString());
         }
         return productList;
     }
 
     @Override
     public List<Product> sortProductsReduced() {
-        return null;
+        Collections.sort(productList, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return o1.getPrice() <  o2.getPrice() ? 1 : -1;
+            }
+        });
+        for (Product product : productList) {
+            System.out.println(product.toString());
+        }
+        return productList;
     }
 
 

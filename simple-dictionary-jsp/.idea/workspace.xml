@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d7d7371-3e4b-4eef-b462-9a82e774453a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Demo-tomcat/src/main/java/servlet/SumServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo-tomcat/src/main/webapp/result_final.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo-tomcat/src/main/webapp/sum_servlet.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Product_Discount_Calculator/src/main/java/com/example/product_discount_calculator/DiscountCaculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Product_Discount_Calculator/src/main/webapp/discountCaculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caculator_servlet/src/main/java/model/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caculator_servlet/src/main/java/servlet/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/customer/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/webapp/WEB-INF/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_servlet/src/main/java/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_servlet/src/main/java/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_servlet/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_servlet/src/main/webapp/list_jstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JSTL/src/main/java/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-JSTL/src/main/java/servlet/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/repository/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/java/util/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/webapp/WEB-INF/views/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demoJdbc/src/main/webapp/WEB-INF/views/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/config/FilterUTF8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/repository/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/webapp/WEB-INF/views/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/webapp/WEB-INF/views/product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/webapp/WEB-INF/views/product/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/webapp/WEB-INF/views/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/webapp/WEB-INF/views/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMVC/src/main/webapp/WEB-INF/views/product/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/src/main/java/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/src/main/webapp/sum.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_management/src/main/webapp/WEB-INF/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-dictionary/src/main/java/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-dictionary/src/main/java/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-dictionary/src/main/java/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-dictionary/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-dictionary/src/main/webapp/list_jstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excerciese7_full_house/excercise_one/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excerciese7_full_house/excercise_one/TestClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excerciese7_full_house/excercise_three/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excerciese7_full_house/excercise_three/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excerciese7_full_house/excercise_two/ArrayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excerciese7_full_house/excercise_two/TestArrayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excercise_ss10_stack_queue/excercise_four/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excercise_ss10_stack_queue/excercise_one/ConvertDecimalToinBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excercise_ss10_stack_queue/excercise_three/CheckBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/excercise_ss10_stack_queue/excercise_two/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/full_house/ss15_full_house/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/full_house/ss15_full_house/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/learn_more_comparable_comparator/MainTestSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/learn_more_comparable_comparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/learn_more_comparable_comparator/StudentSortGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/learn_more_comparable_comparator/StudentSortName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/practice_comparable_comparator/DemoComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss10_stack_queue/MyGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss10_stack_queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss10_stack_queue/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_one/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_two/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_two/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_two/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_two/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_two/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_excercise_map/excercsie_two/service/ProductServiceIpml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_map/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_map/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_map/MyTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_map/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss12_excercise_search/excercise_two/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss13_excercise_sort/excercise_one/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss13_excercise_sort/excercise_two/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss13_sort/DemoSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/service/impl/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/webapp/create_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/repository/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/repository/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/webapp/user/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2S17lnL3XBklGUs3gDYG4jAOEJN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="simple-dictionary-jsp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/simple_dictionary_jsp_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="simple-dictionary-jsp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d7d7371-3e4b-4eef-b462-9a82e774453a" name="Changes" comment="" />
+      <created>1688302389995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688302389995</updated>
+      <workItem from="1688302391537" duration="85000" />
+      <workItem from="1688982211752" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

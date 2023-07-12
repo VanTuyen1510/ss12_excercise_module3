@@ -1,4 +1,4 @@
-package excercise_ss13_sort.excercise_two;
+package ss13_excercise_sort.excercise_two;
 
 public class InsertionSort {
     public static void main(String[] args) {

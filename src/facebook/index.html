@@ -1,0 +1,71 @@
+<body>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        background-color: green;
+        text-align: center;
+    }
+    ul li {
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        position: relative;
+    }
+    ul li ul {
+        background-color: red;
+
+        /*//k hien thi*/
+        display: none;
+    }
+
+    /*dua chuot vao the li nao thi the LI do đổi màu*/
+    ul li:hover {
+        background-color: yellow;
+    }
+
+    /*dua chuot(hover) vao the Li nào thi hien thi UL con cua no ra*/
+    ul li:hover ul{
+        /*hien thi ra*/
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 200px;
+    }
+    ul li ul li {
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid blue;
+    }
+</style>
+
+<ul>
+    <li>menu1
+        <!--  -->
+        <ul>
+            <li>menu1</li>
+            <li>menu1</li>
+            <li>menu1</li>
+            <li>menu1</li>
+        </ul>
+        <!--  -->
+    </li>
+    <li>menu1</li>
+    <li>menu1</li>
+    <li>menu1
+        <!--  -->
+        <ul>
+            <li>menu1</li>
+            <li>menu1</li>
+            <li>menu1</li>
+            <li>menu1</li>
+        </ul>
+        <!--  -->
+    </li>
+</ul>
+</body>
+
+</html>

@@ -1,7 +1,4 @@
-package ss10_excercise_map.excercsie_two.model;
-
-import java.util.Comparator;
-import java.util.List;
+package ss11_excercise_map.excercsie_two.model;
 
 public class Product {
     private int id ;

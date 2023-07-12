@@ -1,10 +1,9 @@
-package ss10_excercise_map.excercsie_two.service;
+package ss11_excercise_map.excercsie_two.service;
 
-import ss10_excercise_map.excercsie_two.model.Product;
-import ss10_excercise_map.excercsie_two.repository.IProductRepository;
-import ss10_excercise_map.excercsie_two.repository.ProductRepositoryImpl;
+import ss11_excercise_map.excercsie_two.model.Product;
+import ss11_excercise_map.excercsie_two.repository.IProductRepository;
+import ss11_excercise_map.excercsie_two.repository.ProductRepositoryImpl;
 
-import java.lang.reflect.Array;
 import java.util.List;
 
 public class ProductServiceIpml implements IProductService {
@@ -36,11 +35,11 @@ public class ProductServiceIpml implements IProductService {
 
     @Override
     public List<Product> ascendingProductSort() {
-        return null;
+        return repository.ascendingProductSort();
     }
 
     @Override
     public List<Product> sortProductsReduced() {
-        return null;
+        return repository.sortProductsReduced();
     }
 }

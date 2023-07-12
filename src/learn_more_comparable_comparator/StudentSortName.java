@@ -1,2 +1,10 @@
-package learn_more_comparable_comparator;public class StudentSortName {
+package learn_more_comparable_comparator;
+
+import java.util.Comparator;
+
+public class StudentSortName implements Comparator<Student> {
+    @Override
+    public int compare(Student o1, Student o2) {
+        return o1.getName().compareTo(o2.getName());
+    }
 }

@@ -1,4 +1,4 @@
-package ss13_excercise_sort.excercise_two;
+package ss12_excercise_search.excercise_two;
 
 import java.util.Arrays;
 import java.util.Scanner;

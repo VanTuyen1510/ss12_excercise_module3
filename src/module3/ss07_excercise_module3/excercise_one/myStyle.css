@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+#header-left{
+    width: calc(45% - 20px);
+    margin-right: 142px;
+    min-height: 30px;
+}
+
+
+.bg-black {
+    background: #353b48;
+}
+
+#wp-content {
+    display: flex;
+}
+
+#content {
+    flex:0.6 1 auto;
+    min-height: 400px;
+
+}
+#sidebar-left{
+    flex:0.2 1 auto;
+    min-height: 400px;
+    background: #f3f3f3;
+}
+
+#sidebar-right {
+    flex:0.2 1 auto;
+    min-height: 400px;
+    background: #f3f3f3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.pd-top-bottom {
+    padding: 17px;
+}
+.bd-right{
+    border-right:  1px solid #353b48;
+}
+
+ul {
+    background-color:  #353b48;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    padding: 10px;
+    color:  #b2bec3;
+    position: relative;
+}
+ul li ul {
+    background-color: red;
+
+    /*//k hien thi*/
+    display: none;
+}
+
+/*dua chuot vao the li nao thi the LI do đổi màu*/
+ul li:hover {
+        background-color: #2d3436;
+}
+
+/*dua chuot(hover) vao the Li nào thi hien thi UL con cua no ra*/
+ul li:hover ul{
+    /*hien thi ra*/
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+ul li ul li {
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid blue;
+}

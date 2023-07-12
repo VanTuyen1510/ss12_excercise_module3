@@ -1,4 +1,4 @@
-package excercise_ss13_sort.excercise_one;
+package ss13_excercise_sort.excercise_one;
 
 import java.util.Arrays;
 

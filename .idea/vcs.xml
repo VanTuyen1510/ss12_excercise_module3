@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NguyenDinhQuan_A1022I1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Product_Discount_Calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apj-shape" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caculator_servlet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/customer_servlet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demoMVC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/CaseStudy_Module2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Furama" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Main2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/excercise_ss07_abstract_interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/excercise_ss09_dsa_list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/excercise_ss10_stack_queue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/module3/ss06_excercise_module3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss02_excercise_array" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss04_excercise_OOP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss05_excersice_static" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss06_excercise_inheritance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss07_excercise_abstract_interface/apj-shape" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss08_excercise_clean_code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss10_dsa_list.exercise.simulation_array_list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss11_excercise_map" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss12_excercise_java_collection_framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss12_excercise_search" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss13_excercise_sort" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss14_excercise_exception" vcs="Git" />
+  </component>
+</project>
