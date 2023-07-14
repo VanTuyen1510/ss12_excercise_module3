@@ -143,9 +143,10 @@ public class ProductController extends HttpServlet {
         }
         int categoryId = Integer.parseInt(req.getParameter("categoryId"));
         Category category = categoryService.findById(categoryId); // ???
-        String origin = req.getParameter("origin");
-        Product product = new Product(id, name, quantity, price, dateRelease, category, origin);
-        productService.add(product);
+//        String origin = req.getParameter("origin");
+        Product product = new Product(id, name, quantity, price, dateRelease, category);
+        productService.update(product);
+//        productService.add(product);
         resp.sendRedirect("/product?action=list");
     }
 
@@ -165,8 +166,8 @@ public class ProductController extends HttpServlet {
         }
         int categoryId = Integer.parseInt(req.getParameter("categoryId"));
         Category category = categoryService.findById(categoryId); // ???
-        String origin = req.getParameter("origin");
-        Product product = new Product(id, name, quantity, price, dateRelease, category, origin);
+//        String origin = req.getParameter("origin");
+        Product product = new Product(id, name, quantity, price, dateRelease, category);
         productService.add(product);
         resp.sendRedirect("/product?action=list");
     }

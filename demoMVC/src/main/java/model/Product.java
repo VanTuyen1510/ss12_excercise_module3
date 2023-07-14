@@ -11,10 +11,10 @@ public class Product {
     private Category category;
     private String origin;
 
-    public Product(int id, String name, int quantity, long price, Date dateRelease, Category category) {
+    public Product() {
     }
 
-    public Product(int id, String name, int quantity, long price, Date dateRelease, Category category, String origin) {
+    public Product(int id, String name, int quantity, long price, Date dateRelease, Category category) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;

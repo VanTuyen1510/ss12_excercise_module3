@@ -8,12 +8,16 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
-@WebServlet(name = "StudentServlet", urlPatterns = {"","/student_servlet"})
+@WebServlet(name = "StudentServlet", urlPatterns = {"", "/student_servlet"})
 public class StudentServlet extends HttpServlet {
     private IStudentService iStudentService = new StudentService();
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        List<Student> studentList = new ArrayList<>();
@@ -33,21 +37,21 @@ public class StudentServlet extends HttpServlet {
 
 
         String actionUser = request.getParameter("actionUser");
-        if(actionUser == null){
+        if (actionUser == null) {
             actionUser = "";
         }
-        switch (actionUser){
+        switch (actionUser) {
             case "create":
 //                response.sendRedirect("create_student.jsp");
-                request.getRequestDispatcher("create_student.jsp").forward(request,response);
+                request.getRequestDispatcher("create_student.jsp").forward(request, response);
                 break;
             case "update":
                 break;
             case "delete":
                 break;
             default:
-                request.setAttribute("studentListServlet",this.iStudentService.finalAll());
-                request.getRequestDispatcher("index.jsp").forward(request,response);
+                request.setAttribute("studentListServlet", this.iStudentService.finalAll());
+                request.getRequestDispatcher("index.jsp").forward(request, response);
         }
 
 
@@ -56,22 +60,35 @@ public class StudentServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String actionUser = request.getParameter("actionUser");
-        if(actionUser == null){
+        if (actionUser == null) {
             actionUser = "";
         }
-        switch (actionUser){
+        switch (actionUser) {
             case "create":
-                String name = request.getParameter("name");
-                String dateOfBirth = request.getParameter("dateOfBirth");
-                Student student = new Student();
-                student.setName(name);
-                student.setDateOfBirth(dateOfBirth);
-                this.iStudentService.save(student);
-                response.sendRedirect("create_student.jsp");
-//                request.getRequestDispatcher("create_student.jsp").forward(request,response);
+                doCreate(request, response);
                 break;
             default:
 
         }
+    }
+
+    private void doCreate(HttpServletRequest request, HttpServletResponse response) {
+//        String name = request.getParameter("name");
+//        String dateOfBirth = request.getParameter("dateOfBirth");
+//        Student student = new Student();
+//        student.setName(name);
+//        student.setDateOfBirth(dateOfBirth);
+//        this.iStudentService.save(student);
+//        response.sendRedirect("create_student.jsp");
+
+//Integer id, String name, String dateOfBirth, Integer gender, Double grade
+        Integer id = Integer.valueOf(request.getParameter("id"));
+        String name = request.getParameter("name");
+        String dateOfBirth = request.getParameter("dateOfBirth");
+        Integer gender = request.getParameter()
+
+        Student student = new Student();
+        productService.add(product);
+        resp.sendRedirect("/product?action=list");
     }
 }

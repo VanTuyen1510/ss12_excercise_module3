@@ -1,12 +1,15 @@
 package repository;
 
 import model.User;
+
+import java.math.BigDecimal;
 import java.sql.*;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAO implements IUserDAO{
-    private String jdbcURL = "jdbc:mysql://localhost:3306/demo?allowPublicKeyRetrieval=true&useSSL=false";
+public class UserDAO implements IUserDAO {
+    private String jdbcURL = "jdbc:mysql://localhost:3306/demoUsers?allowPublicKeyRetrieval=true&useSSL=false";
     private String jdbcUsername = "root";
     private String jdbcPassword = "123456";
 
@@ -19,6 +22,11 @@ public class UserDAO implements IUserDAO{
     private static final String UPDATE_USERS_SQL = "update users set name = ?,email= ?, country =? where id = ?;";
     private static final String SEARCH_COUNTRY_SQL = "select id,name,email,country from users where country like ?";
     private static final String SORT_USER_BY_NAME = "SELECT  id, name, email,country FROM users ORDER BY name";
+
+
+
+
+
 
     public UserDAO() {
     }
@@ -114,12 +122,12 @@ public class UserDAO implements IUserDAO{
     }
 
     @Override
-    public List<User> searchByCountry(String country){
+    public List<User> searchByCountry(String country) {
         List<User> users = new ArrayList<>();
         try (Connection connection = getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_COUNTRY_SQL);) {
             System.out.println(preparedStatement);
-            preparedStatement.setString(1,"%" + country + "%");
+            preparedStatement.setString(1, "%" + country + "%");
             System.out.println(preparedStatement);
             ResultSet rs = preparedStatement.executeQuery(); // executeQuery là gì ???
             while (rs.next()) {
@@ -156,6 +164,10 @@ public class UserDAO implements IUserDAO{
         }
         return users;
     }
+
+
+
+
 
     private void printSQLException(SQLException ex) {
         for (Throwable e : ex) {

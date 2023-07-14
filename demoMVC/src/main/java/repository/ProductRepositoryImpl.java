@@ -21,13 +21,11 @@ public class ProductRepositoryImpl implements ProductRepository {
             statement.setString(2, product.getName());
             statement.setInt(3, product.getQuantity());
             statement.setLong(4, product.getPrice());
-            statement.setDate(5,new Date(product.getDateRelease().getTime()));
+            statement.setDate(5, new Date(product.getDateRelease().getTime()));
             statement.setInt(6, product.getCategory().getId());
             statement.executeUpdate(); // thực thi câu lệnh đó chạy câu lệnh đó
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -61,18 +59,16 @@ public class ProductRepositoryImpl implements ProductRepository {
                 long price = resultSet.getLong("price");
                 // Date import được 1 thằng thôi để viết tắt
                 // getDate trả SQL date
-                java.util.Date dateRelease = new java.util.Date(resultSet.getDate("date_release").getTime());
+                Date dateRelease = new Date(resultSet.getDate("date_release").getTime());
                 int categoryId = resultSet.getInt("category_id");
                 Category category = categoryRepository.findById(categoryId);
+
                 product = new Product(id, name, quantity, price, dateRelease, category);
             }
-
-            statement.executeUpdate(); // thực thi câu lệnh đó chạy câu lệnh đó
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
         return product;
     }
 
@@ -87,6 +83,7 @@ public class ProductRepositoryImpl implements ProductRepository {
             statement.setLong(3, product.getPrice());
             statement.setDate(4, new Date(product.getDateRelease().getTime()));
             statement.setInt(5, product.getCategory().getId());
+
 
             statement.executeUpdate(); // thực thi câu lệnh đó chạy câu lệnh đó
         } catch (ClassNotFoundException e) {
@@ -115,7 +112,8 @@ public class ProductRepositoryImpl implements ProductRepository {
                 // vì getDate trả về Date SQL nên phải convert sang java
                 int categoryId = resultSet.getInt("category_id");
                 Category category = categoryRepository.findById(categoryId);
-                product = new Product(id,name,quantity,price,dateRelease,category);
+
+                product = new Product(id, name, quantity, price, dateRelease, category);
                 products.add(product);
             }
         } catch (ClassNotFoundException e) {
@@ -130,6 +128,43 @@ public class ProductRepositoryImpl implements ProductRepository {
     public List<Product> searchByName(String name) {
         return null;
     }
+
+
+//
+//    @Override
+//    public List<Product> searchByName(String name) {
+//        List<Product> products = new ArrayList<>();
+//
+//        try (Connection connection = DatabaseConnection.getConnection();
+//             PreparedStatement preparedStatement = connection.prepareStatement(Constants.SEARCH_NAME_SQL);) {
+//            System.out.println(preparedStatement);
+//            preparedStatement.setString(1, "%" + name + "%");
+//            System.out.println(preparedStatement);
+//
+//            ResultSet resultSet = preparedStatement.executeQuery();
+//            while (resultSet.next()) {
+//                int id = resultSet.getInt("id");
+//                String name2 = resultSet.getString("name");
+//                int quantity = resultSet.getInt("quantity");
+//                long price = resultSet.getLong("price");
+//                // Date import được 1 thằng thôi để viết tắt
+//                // getDate trả SQL date
+//                Date dateRelease = new Date(resultSet.getDate("date_release").getTime());
+//                int categoryId = resultSet.getInt("category_id");
+//                Category category = categoryRepository.findById(categoryId);
+//
+//              Product product = new Product(id, name2, quantity, price, dateRelease, category);
+//              products.add(product);
+//            }
+//
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
+//        return products;
+//    }
+
 
 
 //    private static Map<Integer, Product> productMap;
@@ -185,4 +220,4 @@ public class ProductRepositoryImpl implements ProductRepository {
 //    }
 
 
-}
+    }
